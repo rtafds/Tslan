@@ -1,0 +1,17 @@
+#!/bin/bash
+###### Requirements without Version Specifiers ######`
+numpy
+pandas
+sklearn
+deap
+matplotlib
+minepy
+pyHSICLasso
+# plotly
+
+###### Requirements with Version Specifiers ######`
+#keras == x.y.z          # Version Matching. Must be version x.y.z
+#pytorch >= x.y.z            # Minimum version x.y.z
+#plotly != x.y             # Version Exclusion. Anything except version x.y
+# ~= 1.1        # Compatible release. Same as >= 1.1, == 1.*
+
